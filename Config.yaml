@@ -1,4 +1,2 @@
 litellm_settings: 
-  callbacks: ["langfuse"]
-  redact_user_api_key_info: false
   langfuse_default_tags: ["cache_hit", "cache_key", "proxy_base_url", "user_api_key_alias", "user_api_key_user_id", "user_api_key_user_email", "user_api_key_team_alias", "semantic-similarity", "proxy_base_url"]
