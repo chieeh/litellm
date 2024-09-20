@@ -1,2 +1,5 @@
 litellm_settings: 
-  langfuse_default_tags: ["cache_hit", "cache_key", "proxy_base_url", "user_api_key_alias", "user_api_key_user_id", "user_api_key_user_email", "user_api_key_team_alias", "semantic-similarity", "proxy_base_url"]
+  cache: true 
+  cache_params:        # set cache params for redis
+    type: redis
+    namespace: "litellm_caching"
